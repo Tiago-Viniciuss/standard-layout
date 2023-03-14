@@ -12,7 +12,7 @@ body {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.477);
     position: fixed;
     top: 0;
-    z-index: 95;
+    z-index: 99;
 }
 
 #header h1 {
@@ -45,7 +45,6 @@ body {
     width: 99vw;
     height: 0px;
     margin: 0px;
-    padding-left: 15px;
     display: flex;
     flex-direction: column;
 
@@ -53,7 +52,7 @@ body {
     transition: .8s;
     overflow-y: hidden;
     position: fixed;
-    top: 0;
+    left: 0;
     z-index: 90;
 }
 
@@ -75,11 +74,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 0px;
 }
 
 #backgroundPicture {
     height: 500px;
     background-image: url(../images/backgroundPicture.jpg);
+   
    
 }
 
@@ -116,16 +117,17 @@ body {
     background-image: url(../images/coffeeMachine.jpg);
 }
 
-#goGallery {
-    margin-top: 50px;
+#gallery {
+    margin-top: 10px;
     height: 300px;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
 }
 
-#goGallery img {
+#gallery img {
     margin-right: 15px;
+    height: 280px;
     width: 280px;
 }
 
