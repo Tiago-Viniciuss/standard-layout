@@ -1,14 +1,16 @@
 function openMenu() {
     let menu = document.getElementById('menuNav')
     let button = document.getElementById('menuButton')
+    let header = document.getElementById('header')
 
     menu.classList.toggle('active')
     
-    
     if (menu.className == 'bg-dark active') {
         button.innerHTML = 'close'
+        header.style.boxShadow = 'none'
     } else {
         button.innerHTML = 'menu'
+        header.style.boxShadow = '0px 5px 5px rgba(0, 0, 0, 0.477)'
     }
 }
 

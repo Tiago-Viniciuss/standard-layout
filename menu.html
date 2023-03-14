@@ -25,36 +25,19 @@
         
     </header>
     <button id="menuButton" class="material-symbols-outlined bg-transparent text-white border-0" onclick="openMenu()">menu</button>
-    <div id="backgroundPicture" class="backgroundImages container-fluid bg-dark"></div>
+    <div id="backgroundPictureOrder" class="backgroundImages container-fluid bg-dark"></div>
     <menu id="menuNav" class="bg-dark">
-        <a href="#">Home</a>
-        <a href="menu.html">Menu</a>
+        <a href="index.html">Home</a>
+        <a href="#">Menu</a>
         <a href="#footer" onclick="seekLink()">Location</a>
         <a href="#">About us</a>
         <a href="#footer" onclick="seekLink()">Contact us</a>
     </menu>
-    <main id="main" class=" p-2">
-        <article>
-            <h2 class="text-center p-3">
-                Seja bem-vindo à Saga
-            </h2>
-                <p class="p-3">
-                    O nosso café é um ponto de encontro conhecido para almoçar, lanchar ou beber um café reconfortante ao final do dia. Esqueça o tempo lá fora e sinta-se confortável nos nossos espaços climatizados.
-                </p>
-                <p class="p-3 pb-5" data-anime="left">
-                    Deixe-se convencer e saboreie a cozinha portuguesa. Por exemplo, experimente o nosso pão fresco e uma bebida sem álcool fresca. Também temos várias propostas para os nossos clientes mais gulosos – delicie-se com os nossos gelados refrescantes e os nossos pastéis variados. Venha saborear o seu pequeno-almoço ou o seu almoço connosco! 
-                </p>
-                <div class="backgroundImages" id="coffeeMachine" data-anime="left"></div>
-        </article>
+    <main id="mainOrderNow">
+        <h2 class="text-center m-4">Conheça nosso cardápio:</h2>
+        <div id="menu1" class="menus" data-anime="left"></div>
+        <div id="menu2" class="menus" data-anime="left"></div>
     </main>
-    <div id="goGallery">
-        <img src="images/picture1.jpg" data-anime="left" class="img-thumbnail" alt="">
-        <img src="images/picture2.jpg" data-anime="right" class="img-thumbnail" alt="">
-        <img src="images/picture3.jpg" data-anime="right" class="img-thumbnail" alt="">
-        <img src="images/picture4.jpg" data-anime="left" class="img-thumbnail" alt="">
-        <img src="images/picture5.jpg" data-anime="right" class="img-thumbnail" alt="">
-        <img src="images/picture6.jpg" data-anime="left" class="img-thumbnail" alt="">
-    </div>
     <footer id="footer" class="bg-dark container-fluid mt-5">
         <a href="https://www.google.com/maps/place/SAGA/@38.7185163,-9.1322263,17z/data=!3m1!4b1!4m6!3m5!1s0xd193389230d936f:0x848800946a2131da!8m2!3d38.7185163!4d-9.1300376!16s%2Fg%2F11cs3w578f" target="_blank" class="text-decoration-none text-white">
             <div id="location" class="m-3 text-white">
@@ -73,7 +56,7 @@
         </div>
 
         <hr  class="text-white w-50">
-
+        
         <p>Pastelaria Saga, 2023 <sup>®</sup></p>
         <address class="text-white">Developed by <a href="#" class="text-white">Tiago Vinícius</a></address>
     </footer> 
