@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0px;
+    margin-top: 10px;
+    background-color: #E8E5DE;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 95;
+}
+
+#menuButton {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+}
+
+#menuNav {
+    width: 90vw;
+    height: 0px;
+    margin: 0px;
+    
+    display: flex;
+    flex-direction: column;
+
+    visibility: hidden;
+    transition: .5s;
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 90;
+}
+
+#menuNav.active {
+    padding-top: 100px;
+    height: 100vh;
+    visibility: visible;
+}
+
+#menuNav a {
+    margin-bottom: 30px;
+}
+
+.backgroundImages {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#backgroundPicture {
+    height: 550px;
+    background-image: url(../images/backgroundPicture.jpg);
+    background-position: center;
+}
+
+#main p {
+    width: 450px;
+    margin: auto;
+    text-align: justify;
+}
+
+#coffeeMachine {
+    margin: 15px;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    background-image: url(../images/coffeeMachine.jpg);
+}
+
+
+#goGallery {
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+#goGallery img {
+    margin-right: 15px ;
+}
+
+#footer {
+    height: 300px;
+}
